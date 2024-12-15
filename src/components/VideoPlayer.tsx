@@ -1,46 +1,33 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from 'react';
 
-interface VideoLMSProps {
+interface VideoPlayerProps {
   videoUrl: string;
-  onVideoEnd: () => void;
+  isActive: boolean;
 }
 
-const VideoLMS: React.FC<VideoLMSProps> = ({ videoUrl, onVideoEnd }) => {
-  const videoId = videoUrl.split("/").pop() || "";
+const VideoPlayer: React.FC<VideoPlayerProps> = ({ videoUrl, isActive }) => {
+  const iframeRef = useRef<HTMLIFrameElement>(null);
 
   useEffect(() => {
-    const iframe = document.querySelector(
-      `#video-${videoId}`
-    ) as HTMLIFrameElement;
-
-    const handleVideoEnd = () => {
-      onVideoEnd();
-    };
-
-    if (iframe) {
-      iframe.addEventListener("ended", handleVideoEnd);
+    const iframe = iframeRef.current;
+    if (iframe && isActive) {
+      iframe.src = `${videoUrl}?autoplay=1&enablejsapi=1`;
     }
-
-    return () => {
-      if (iframe) {
-        iframe.removeEventListener("ended", handleVideoEnd);
-      }
-    };
-  }, [videoId, onVideoEnd]);
+  }, [videoUrl, isActive]);
 
   return (
-    <div className="mb-10">
+    <div className="relative w-full pt-[56.25%] bg-gray-900 rounded-lg overflow-hidden shadow-xl">
       <iframe
-        id={`video-${videoId}`}
-        width="100%"
-        height="500"
-        src={`https://www.youtube.com/embed/${videoId}?autoplay=1&modestbranding=1&rel=0&showinfo=0&iv_load_policy=3&fs=0`}
-        frameBorder="0"
-        allow="autoplay; encrypted-media"
-        title={`video-${videoId}`}
-      ></iframe>
+        ref={iframeRef}
+        className="absolute top-0 left-0 w-full h-full"
+        src={`${videoUrl}?enablejsapi=1`}
+        title="Video Player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      />
     </div>
   );
 };
 
-export default VideoLMS;
+export default VideoPlayer;
+

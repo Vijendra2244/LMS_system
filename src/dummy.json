@@ -1,93 +1,257 @@
 [
-    {
-      "id": 1,
-      "videoUrl": "https://www.youtube.com/embed/Ke90Tje7VS0",
-      "assessment": [
-        "What is JSX, and how is it used in React?",
-        "Explain the purpose of the `useState` hook with an example.",
-        "How does React differ from traditional DOM manipulation?"
-      ]
-    },
-    {
-      "id": 2,
-      "videoUrl": "https://www.youtube.com/embed/Oe421EPjeBE",
-      "assessment": [
-        "What is the main use case for Node.js?",
-        "How does Node.js handle asynchronous operations?",
-        "Explain the role of the event loop in Node.js."
-      ]
-    },
-    {
-      "id": 3,
-      "videoUrl": "https://www.youtube.com/embed/f9EM8T5K6d8",
-      "assessment": [
-        "What is the difference between `var`, `let`, and `const` in JavaScript?",
-        "Explain closures in JavaScript with an example.",
-        "What are promises, and how do they improve asynchronous code?"
-      ]
-    },
-    {
-      "id": 4,
-      "videoUrl": "https://www.youtube.com/embed/RRubcjpTkks",
-      "assessment": [
-        "What is the difference between `git pull` and `git fetch`?",
-        "Explain the purpose of branching in Git.",
-        "How do you resolve merge conflicts in Git?"
-      ]
-    },
-    {
-      "id": 5,
-      "videoUrl": "https://www.youtube.com/embed/hQAHSlTtcmY",
-      "assessment": [
-        "What is a RESTful API, and how does it work?",
-        "Explain the difference between GET, POST, PUT, and DELETE methods.",
-        "What is JSON, and why is it commonly used in APIs?"
-      ]
-    },
-    {
-      "id": 6,
-      "videoUrl": "https://www.youtube.com/embed/L8eRCuBYyoE",
-      "assessment": [
-        "What are Python's key features that make it popular?",
-        "Explain the difference between a list and a tuple in Python.",
-        "What are Python's use cases in data science and AI?"
-      ]
-    },
-    {
-      "id": 7,
-      "videoUrl": "https://www.youtube.com/embed/W6NZfCO5SIk",
-      "assessment": [
-        "Explain how the `this` keyword works in JavaScript.",
-        "What are higher-order functions? Provide an example.",
-        "What is the difference between `==` and `===` in JavaScript?"
-      ]
-    },
-    {
-      "id": 8,
-      "videoUrl": "https://www.youtube.com/embed/zJSY8tbf_ys",
-      "assessment": [
-        "What is the difference between bubble sort and quick sort?",
-        "How does binary search work? Provide an example.",
-        "What is the time complexity of merge sort?"
-      ]
-    },
-    {
-      "id": 9,
-      "videoUrl": "https://www.youtube.com/embed/kMVs1IzDUqg",
-      "assessment": [
-        "What is the difference between inline, block, and inline-block elements in CSS?",
-        "Explain how flexbox works with an example.",
-        "What are media queries, and how are they used for responsiveness?"
-      ]
-    },
-    {
-      "id": 10,
-      "videoUrl": "https://www.youtube.com/embed/HB1ZC7czKRs",
-      "assessment": [
-        "What is a NoSQL database, and how does MongoDB fit into this category?",
-        "Explain the difference between a collection and a document in MongoDB.",
-        "What is indexing in MongoDB, and how does it improve query performance?"
-      ]
-    }
-  ]
-  
+  {
+    "id": 1,
+    "videoUrl": "https://www.youtube.com/embed/Ke90Tje7VS0",
+    "assessment": [
+      {
+        "id": 1,
+        "text": "What is JSX, and how is it used in React?",
+        "type": "text"
+      },
+      {
+        "id": 2,
+        "text": "Which of the following is NOT a key feature of React?",
+        "type": "multiple-choice",
+        "options": [
+          "Virtual DOM",
+          "Component-based architecture",
+          "Two-way data binding",
+          "JSX syntax"
+        ]
+      },
+      {
+        "id": 3,
+        "text": "How does React differ from traditional DOM manipulation?",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "videoUrl": "https://www.youtube.com/embed/Oe421EPjeBE",
+    "assessment": [
+      {
+        "id": 1,
+        "text": "What is the main use case for Node.js?",
+        "type": "text"
+      },
+      {
+        "id": 2,
+        "text": "Which of the following best describes Node.js?",
+        "type": "multiple-choice",
+        "options": [
+          "A front-end JavaScript framework",
+          "A back-end runtime environment",
+          "A database management system",
+          "A testing library"
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Explain the role of the event loop in Node.js.",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "videoUrl": "https://www.youtube.com/embed/f9EM8T5K6d8",
+    "assessment": [
+      {
+        "id": 1,
+        "text": "What is the difference between `var`, `let`, and `const` in JavaScript?",
+        "type": "text"
+      },
+      {
+        "id": 2,
+        "text": "Which of the following is true about `const` in JavaScript?",
+        "type": "multiple-choice",
+        "options": [
+          "It can be reassigned a new value",
+          "It is not hoisted",
+          "It has block scope",
+          "All of the above"
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What are promises, and how do they improve asynchronous code?",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "videoUrl": "https://www.youtube.com/embed/RRubcjpTkks",
+    "assessment": [
+      {
+        "id": 1,
+        "text": "What is the difference between `git pull` and `git fetch`?",
+        "type": "text"
+      },
+      {
+        "id": 2,
+        "text": "Which Git command is used to create a new branch?",
+        "type": "multiple-choice",
+        "options": [
+          "git branch new-branch",
+          "git checkout -b new-branch",
+          "git create new-branch",
+          "git new-branch"
+        ]
+      },
+      {
+        "id": 3,
+        "text": "How do you resolve merge conflicts in Git?",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "videoUrl": "https://www.youtube.com/embed/hQAHSlTtcmY",
+    "assessment": [
+      {
+        "id": 1,
+        "text": "What is a RESTful API, and how does it work?",
+        "type": "text"
+      },
+      {
+        "id": 2,
+        "text": "Which HTTP method is typically used for updating an existing resource?",
+        "type": "multiple-choice",
+        "options": ["GET", "POST", "PUT", "DELETE"]
+      },
+      {
+        "id": 3,
+        "text": "What is JSON, and why is it commonly used in APIs?",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "videoUrl": "https://www.youtube.com/embed/w7ejDZ8SWv8",
+    "assessment": [
+      {
+        "id": 1,
+        "text": "What are the main differences between React class components and functional components?",
+        "type": "text"
+      },
+      {
+        "id": 2,
+        "text": "Which of the following is a React hook?",
+        "type": "multiple-choice",
+        "options": ["useState", "useReact", "useClass", "useDOM"]
+      },
+      {
+        "id": 3,
+        "text": "Explain the concept of props in React and their significance.",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "videoUrl": "https://www.youtube.com/embed/TlB_eWDSMt4",
+    "assessment": [
+      {
+        "id": 1,
+        "text": "What are the benefits of using middleware in Express.js?",
+        "type": "text"
+      },
+      {
+        "id": 2,
+        "text": "Which middleware is used for parsing JSON in Express.js?",
+        "type": "multiple-choice",
+        "options": [
+          "body-parser",
+          "cookie-parser",
+          "json-parser",
+          "urlencoded-parser"
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Explain the purpose of error-handling middleware in Express.js.",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "videoUrl": "https://www.youtube.com/embed/vjf774RKrLc",
+    "assessment": [
+      {
+        "id": 1,
+        "text": "What are the different types of databases, and how does MongoDB fit in?",
+        "type": "text"
+      },
+      {
+        "id": 2,
+        "text": "Which command is used to show all databases in MongoDB?",
+        "type": "multiple-choice",
+        "options": ["show databases", "db.show()", "show all", "list databases"]
+      },
+      {
+        "id": 3,
+        "text": "Explain the concept of collections in MongoDB.",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "videoUrl": "https://www.youtube.com/embed/BSO9C8Z-YV8",
+    "assessment": [
+      {
+        "id": 1,
+        "text": "What is the difference between synchronous and asynchronous programming?",
+        "type": "text"
+      },
+      {
+        "id": 2,
+        "text": "Which of the following is an example of asynchronous JavaScript?",
+        "type": "multiple-choice",
+        "options": [
+          "console.log('Hello')",
+          "setTimeout()",
+          "Math.random()",
+          "document.getElementById()"
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What is a callback function, and how is it used in asynchronous code?",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "videoUrl": "https://www.youtube.com/embed/UB1O30fR-EE",
+    "assessment": [
+      {
+        "id": 1,
+        "text": "What are CSS flexbox and grid, and how are they different?",
+        "type": "text"
+      },
+      {
+        "id": 2,
+        "text": "Which CSS property is used to align items along the main axis in flexbox?",
+        "type": "multiple-choice",
+        "options": [
+          "align-items",
+          "justify-content",
+          "flex-direction",
+          "align-self"
+        ]
+      },
+      {
+        "id": 3,
+        "text": "How does the `grid-template-areas` property work in CSS Grid?",
+        "type": "text"
+      }
+    ]
+  }
+]
