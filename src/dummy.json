@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "videoUrl": "https://www.youtube.com/embed/Ke90Tje7VS0",
+      "assessment": [
+        "What is JSX, and how is it used in React?",
+        "Explain the purpose of the `useState` hook with an example.",
+        "How does React differ from traditional DOM manipulation?"
+      ]
+    },
+    {
+      "id": 2,
+      "videoUrl": "https://www.youtube.com/embed/Oe421EPjeBE",
+      "assessment": [
+        "What is the main use case for Node.js?",
+        "How does Node.js handle asynchronous operations?",
+        "Explain the role of the event loop in Node.js."
+      ]
+    },
+    {
+      "id": 3,
+      "videoUrl": "https://www.youtube.com/embed/f9EM8T5K6d8",
+      "assessment": [
+        "What is the difference between `var`, `let`, and `const` in JavaScript?",
+        "Explain closures in JavaScript with an example.",
+        "What are promises, and how do they improve asynchronous code?"
+      ]
+    },
+    {
+      "id": 4,
+      "videoUrl": "https://www.youtube.com/embed/RRubcjpTkks",
+      "assessment": [
+        "What is the difference between `git pull` and `git fetch`?",
+        "Explain the purpose of branching in Git.",
+        "How do you resolve merge conflicts in Git?"
+      ]
+    },
+    {
+      "id": 5,
+      "videoUrl": "https://www.youtube.com/embed/hQAHSlTtcmY",
+      "assessment": [
+        "What is a RESTful API, and how does it work?",
+        "Explain the difference between GET, POST, PUT, and DELETE methods.",
+        "What is JSON, and why is it commonly used in APIs?"
+      ]
+    },
+    {
+      "id": 6,
+      "videoUrl": "https://www.youtube.com/embed/L8eRCuBYyoE",
+      "assessment": [
+        "What are Python's key features that make it popular?",
+        "Explain the difference between a list and a tuple in Python.",
+        "What are Python's use cases in data science and AI?"
+      ]
+    },
+    {
+      "id": 7,
+      "videoUrl": "https://www.youtube.com/embed/W6NZfCO5SIk",
+      "assessment": [
+        "Explain how the `this` keyword works in JavaScript.",
+        "What are higher-order functions? Provide an example.",
+        "What is the difference between `==` and `===` in JavaScript?"
+      ]
+    },
+    {
+      "id": 8,
+      "videoUrl": "https://www.youtube.com/embed/zJSY8tbf_ys",
+      "assessment": [
+        "What is the difference between bubble sort and quick sort?",
+        "How does binary search work? Provide an example.",
+        "What is the time complexity of merge sort?"
+      ]
+    },
+    {
+      "id": 9,
+      "videoUrl": "https://www.youtube.com/embed/kMVs1IzDUqg",
+      "assessment": [
+        "What is the difference between inline, block, and inline-block elements in CSS?",
+        "Explain how flexbox works with an example.",
+        "What are media queries, and how are they used for responsiveness?"
+      ]
+    },
+    {
+      "id": 10,
+      "videoUrl": "https://www.youtube.com/embed/HB1ZC7czKRs",
+      "assessment": [
+        "What is a NoSQL database, and how does MongoDB fit into this category?",
+        "Explain the difference between a collection and a document in MongoDB.",
+        "What is indexing in MongoDB, and how does it improve query performance?"
+      ]
+    }
+  ]
+  
