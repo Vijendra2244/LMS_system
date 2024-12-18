@@ -67,7 +67,7 @@ const Assessment = ({ questions, onNextTask, isActive }:any) => {
           onClick={handleSubmit}
           className="w-full py-3 px-6 rounded-lg text-white font-semibold transition-colors bg-blue-500 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-800"
         >
-          Submit Answers
+          Next task
         </button>
       )}
       {isSubmitted && (
